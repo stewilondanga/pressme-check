@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Gaegu");
-/*
 
 .my_social {
   position: absolute;
@@ -7,7 +6,7 @@
   left: 25px;
 }
 
-.my_social a {
+/*.my_social a {
   display: inline-block;
   height: 2.5em;
 }
