@@ -101,10 +101,10 @@ input[type="checkbox"]:checked+label span {
   background: turquoise;
 }
 
-/*input[type="checkbox"]:checked + label span::before {
+input[type="checkbox"]:checked + label span::before {
   top: -0.075em;
 }
-input[type="checkbox"]:checked + label:not(.active) span {
+/*input[type="checkbox"]:checked + label:not(.active) span {
   box-shadow: 0 0 rgba(0, 0, 0, 0.2);
 }
 input[type="checkbox"]:focus + label span {
