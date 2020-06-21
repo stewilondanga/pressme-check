@@ -15,7 +15,7 @@
   height: 1.5em;
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -25,7 +25,8 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-input[type="checkbox"] + label {
+
+/*input[type="checkbox"] + label {
   position: relative;
   display: block;
   padding: 0 0 0 1.75em;
