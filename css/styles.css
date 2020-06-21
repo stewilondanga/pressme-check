@@ -96,11 +96,12 @@ input[type="checkbox"]+label.active span::before {
   top: -0.075em;
 }
 
-/*input[type="checkbox"]:checked + label span {
+input[type="checkbox"]:checked+label span {
   top: 0;
   background: turquoise;
 }
-input[type="checkbox"]:checked + label span::before {
+
+/*input[type="checkbox"]:checked + label span::before {
   top: -0.075em;
 }
 input[type="checkbox"]:checked + label:not(.active) span {
