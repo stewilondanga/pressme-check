@@ -54,20 +54,21 @@ input[type="checkbox"]+label span {
   cursor: pointer;
 }
 
-/*input[type="checkbox"] + label span::after {
+input[type="checkbox"]+label span::after {
   position: absolute;
   top: 35%;
   left: 25%;
   display: block;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-bottom: 0.075em solid black;
   border-left: 0.075em solid black;
   width: 0.4em;
   height: 0.133em;
   content: '';
 }
-input[type="checkbox"] + label span:before {
+
+/*input[type="checkbox"] + label span:before {
   -webkit-transition: all 50ms ease-out;
   transition: all 50ms ease-out;
   position: absolute;
