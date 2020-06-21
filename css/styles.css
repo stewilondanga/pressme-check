@@ -26,7 +26,7 @@ input[type="checkbox"] {
   border: 0;
 }
 
-/*input[type="checkbox"] + label {
+input[type="checkbox"]+label {
   position: relative;
   display: block;
   padding: 0 0 0 1.75em;
@@ -35,7 +35,8 @@ input[type="checkbox"] {
   line-height: 1.25;
   font-family: Gaegu, sans-serif;
 }
-input[type="checkbox"] + label span {
+
+/*input[type="checkbox"] + label span {
   position: absolute;
   top: 0.15em;
   left: 0;
