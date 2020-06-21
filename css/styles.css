@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Gaegu");
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,7 +22,6 @@
   height: 1.5em;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Gaegu");
 input[type="checkbox"] {
   position: absolute;
   width: 1px;
